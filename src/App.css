@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+.App {
+  font-family: 'Patua One', cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.quote-card{
+  width: 850px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 0 0.5rem;
+  transition: 0.2s;
+}
+
+.quote-card:hover{
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, .3);
+  transition: 0.2s;
+}
+
+.quote-card h1{
+  margin: 0
+}
+
+.text-btn{
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quote-text p{
+  font-size: 1.2rem;
+}
+
+.quote-author{
+  display: flex;
+  justify-content: end;
+}
+
+.quote-author p{
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.button-container{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.button-container button{
+  border: none;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  color: white;
+  transition: 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container button:hover{
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, .3);
+  transition: 0.2s;
+}
